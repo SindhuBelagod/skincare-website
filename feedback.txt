@@ -1,0 +1,8 @@
+{"feedback":"good app","time":"1/13/2026, 4:24:09 PM"}
+{"feedback":"good","time":"1/13/2026, 4:36:48 PM"}
+{"feedback":"nice","time":"1/13/2026, 4:39:25 PM"}
+{"feedback":"nice app","time":"1/13/2026, 9:06:08 PM"}
+{"feedback":"good","time":"1/13/2026, 9:09:31 PM"}
+{"name":"Sindhu B","email":"sindhubelag","feedback":"good","time":"1/16/2026, 9:40:13 PM"}
+{"name":"sindhu","email":"abc@gmail.com","mobile":"9900300978","feedback":"nice app"}
+{"name":"Sindhu B","email":"abc@gmail.com","mobile":"9900300978","feedback":"good app"}
