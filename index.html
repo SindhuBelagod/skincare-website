@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GlowCare | Skincare Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cart Icon -->
+<div class="cart-icon" onclick="toggleCart()">
+  🛒 <span id="cart-count">0</span>
+</div>
+
+
+
+
+
+<!-- Welcome Section -->
+<section class="welcome">
+  <h1>Welcome to GlowCare ✨</h1>
+  <p>
+    Skincare is essential for healthy, glowing skin.
+    Choosing the right products according to your skin type
+    prevents acne, dryness, and sensitivity.
+  </p>
+</section>
+
+<!-- Skin Type Selection -->
+<section class="skin-select">
+  <h2>Select Your Skin Type</h2>
+  <div class="skin-buttons">
+    <button onclick="showProducts('oily')">Oily</button>
+    <button onclick="showProducts('combination')">Combination</button>
+    <button onclick="showProducts('normal')">Normal</button>
+    <button onclick="showProducts('dry')">Dry</button>
+    
+  </div>
+</section>
+
+<!-- Products -->
+<section id="products" class="products"></section>
+
+<!-- Cart Panel -->
+<div id="cart-panel" class="cart-panel">
+  <h2>Your Cart</h2>
+  <ul id="cart-items"></ul>
+  <h3>Total: ₹<span id="total">0</span></h3>
+  <button onclick="placeOrder()">Place Order</button>
+</div>
+
+<!-- Thank You -->
+<section id="thankyou" class="thankyou">
+  <h1>Thank You 💖</h1>
+  <p>Your order has been placed successfully. Stay glowing!</p>
+</section>
+</section>
+<!-- Floating Feedback Icon -->
+<div class="feedback-icon" onclick="openFeedback()">💬</div>
+
+<!-- Feedback Modal -->
+<div id="feedback-modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeFeedback()">×</span>
+    <h2>We’d love your feedback 💖</h2>
+
+    <input type="text" id="fname" placeholder="Your Name">
+    <input type="email" id="femail" placeholder="Your Email">
+    <input type="text" id="fmobile" placeholder="Mobile Number">
+    <textarea id="ffeedback" placeholder="Write your feedback..."></textarea>
+
+    <button onclick="submitFeedback()">Send</button>
+    <p id="feedback-msg"></p>
+  </div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
